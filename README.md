@@ -15,7 +15,6 @@ React 튜토리얼 (한국어): https://ko.reactjs.org/tutorial/tutorial.html
 
 Next 튜토리얼 (영어): https://nextjs.org/learn/foundations/about-nextjs
 
-
 ### JavaScript 학습 우선순위
 
 * 자바스크립트 기본
@@ -36,6 +35,9 @@ HTML (한글, 일부 영문): https://developer.mozilla.org/ko/docs/Learn/HTML
 CSS (영문): https://web.dev/learn/css/
 
 ## 스프린트 3~4
+
+* [ ] 실습: Next 커머스 데모 UI 따라하기
+* [ ] 이론: 자바스크립트 심화, React / Next.js 이해
 
 ### 실습: Next 커머스 데모 UI 따라하기
 
@@ -59,6 +61,8 @@ Next 공식 문서에서는 Basic Features에 있는 내용들은 모두 숙지�
 Basic Feature: Pages | Next.js (영문): https://nextjs.org/docs/basic-features/pages
 
 ## 스프린트 5~6
+
+* [ ] 복습 및 정리
 
 복습 및 정리를 위주로 공부할 것 
 
