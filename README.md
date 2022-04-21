@@ -16,6 +16,8 @@ Next 튜토리얼 (영어): https://nextjs.org/learn/foundations/about-nextjs
 
 ### JavaScript 학습 우선순위
 
+https://ko.javascript.info/
+
 * 자바스크립트 기본
 * 코드 품질
 * 객체: 기본
