@@ -9,7 +9,7 @@ https://euncho.medium.com/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%95%9
 * [ ] 실습 : React.js, Next.js 튜토리얼 따라하기 
 * [ ] 이론 : HTML, CSS, JavaScript
 
-### React.js
+### React.js, Next.js 튜토리얼 학습
 
 React 튜토리얼 (한국어): https://ko.reactjs.org/tutorial/tutorial.html
 
@@ -40,7 +40,6 @@ CSS (영문): https://web.dev/learn/css/
 ### 실습: Next 커머스 데모 UI 따라하기
 
 가급적 저장소를 보지 않고 하는 걸 권장하는 데, 저장소를 보고 이해하려면 Mono Repo에 대해서도 이해해야하고, 또 Shopify 등과 연동하는 방식에 대해서도 어느정도 알아야하기 때문이다. 간단한 Feature에 대해서만 참고하도록 하자.
-
 
 * 상품 목록 / 상품 상세
 * 장바구니
