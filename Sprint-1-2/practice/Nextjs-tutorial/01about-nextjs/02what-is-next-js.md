@@ -1,8 +1,4 @@
-# Next.js 튜토리얼 
-
-https://nextjs.org/learn/foundations/about-nextjs
-
-## What is Next.js
+# What is Next.js
 
 link: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
 
