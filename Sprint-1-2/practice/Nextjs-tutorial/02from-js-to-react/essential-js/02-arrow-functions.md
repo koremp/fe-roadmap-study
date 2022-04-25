@@ -386,3 +386,89 @@ var func = (a, b, c)
   => 1;
 // SyntaxError: Unexpected token '=>'
 ```
+
+However, this can be amended by putting the line break after the arrow or using parentheses/braces as seen below to ensure that the code stays pretty and fluffy. You can also put line breaks between arguments.
+
+```js
+var func = (a, b, c) =>
+  1;
+
+var func = (a, b, c) => (
+  1
+);
+
+var func = (a, b, c) => {
+  return 1
+};
+
+var func = (
+  a,
+  b,
+  c
+) => 1;
+
+// no SyntaxError thrown
+```
+
+### Parsing order
+
+Although the arrow in an arrow function is not an operator, arrow functions have special parsing rules that interact differently with `operator precedence` compared to regular functions.
+
+```js
+let callback;
+
+callback = callback || function() {}; // ok
+
+callback = callback || () => {};
+// SyntaxError: invalid arrow-function arguments
+
+callback = callback || (() => {});    // ok
+```
+
+## Examples
+
+### Basic usage
+
+```js
+// An empty arrow function returns undefined
+let empty = () => {};
+
+(() => 'foobar')();
+// Returns "foobar"
+// (this is an Immediately Invoked Function Expression)
+
+var simple = a => a > 15 ? 15 : a;
+simple(16); // 15
+simple(10); // 10
+
+let max = (a, b) => a > b ? a : b;
+
+// Easy array filtering, mapping, ...
+
+var arr = [5, 6, 13, 0, 1, 18, 23];
+
+var sum = arr.reduce((a, b) => a + b);
+// 66
+
+var even = arr.filter(v => v % 2 == 0);
+// [6, 0, 18]
+
+var double = arr.map(v => v * 2);
+// [10, 12, 26, 0, 2, 36, 46]
+
+// More concise promise chains
+promise.then(a => {
+  // ...
+}).then(b => {
+  // ...
+});
+
+// Parameterless arrow functions that are visually easier to parse
+setTimeout( () => {
+  console.log('I happen sooner');
+  setTimeout( () => {
+    // deeper code
+    console.log('I happen later');
+  }, 1);
+}, 1);
+```
