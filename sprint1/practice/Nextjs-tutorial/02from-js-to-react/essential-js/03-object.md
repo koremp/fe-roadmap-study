@@ -1,5 +1,10 @@
 # Object
 
+* English
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+* Korean
+  * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object
+
 The `Object` class represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the `Object()` constructor or the object initializer / literal syntax.
 
 ## Description
