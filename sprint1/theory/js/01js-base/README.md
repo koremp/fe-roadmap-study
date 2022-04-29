@@ -1,5 +1,7 @@
 # 자바스크립트 기본 문법에 대해 배워봅시다.
 
+https://ko.javascript.info/first-steps
+
 1. Hello, world!
 2. 코드 구조
 3. 엄격 모드
