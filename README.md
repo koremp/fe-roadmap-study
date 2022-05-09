@@ -4,40 +4,57 @@ https://euncho.medium.com/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%95%9
 
 조은님의 미디엄 글을 보고, 따라해보는 레포
 ## 스프린트 1~2
-
-* [ ] 실습 : React.js, Next.js 튜토리얼 따라하기 
-* [ ] 이론 : HTML, CSS, JavaScript
+  
+* [x] 실습 : React.js, Next.js 튜토리얼 따라하기 
+* [ ] 이론
+  * [ ]  : HTML
+  * [ ]  : CSS
+  * [ ]  : JavaScript
 
 ### React.js, Next.js 튜토리얼 학습
 
-React 튜토리얼 (한국어): https://ko.reactjs.org/tutorial/tutorial.html
+* [x] React 튜토리얼 (한국어): <https://ko.reactjs.org/tutorial/tutorial.html>
+* [x] Next.js 튜토리얼 (영어): <https://nextjs.org/learn/foundations/about-nextjs>
 
-Next 튜토리얼 (영어): https://nextjs.org/learn/foundations/about-nextjs
+#### Next.js - From JavaScript to React
 
-### JavaScript 학습 우선순위
+ps. 실수로 Next.js 튜토리얼 이후의 <https://nextjs.org/learn/foundations/from-javascript-to-react>의 **Essential JavaScript for React**
+를 공부해서, 시간이 많이 걸림
 
-https://ko.javascript.info/
+##### Essential JavaScript for React
 
-* 자바스크립트 기본
-* 코드 품질
-* 객체: 기본
-* 자료구조와 자료형
-* 함수 심화학습
-* 에러 핸들링
-* 프라미스와 async, await
-* 모듈
+* [x] Functions and Arrow Functions
+* [x] Objects
+* [x] Arrays and array methods
+* [x] Destructuring
+* [x] Template literals
+* [x] Ternary Operators
+* [x] ES Modules and Import / Export Syntax
+
+### JavaScript
+
+<https://ko.javascript.info/>
+
+* [x] 자바스크립트 기본
+* [x] 코드 품질
+* [ ] 객체: 기본
+* [ ] 자료구조와 자료형
+* [ ] 함수 심화학습
+* [ ] 에러 핸들링
+* [ ] 프라미스와 async, await
+* [ ] 모듈
 
 ### HTML
 
-HTML (한글, 일부 영문): https://developer.mozilla.org/ko/docs/Learn/HTML
+HTML (한글, 일부 영문): <https://developer.mozilla.org/ko/docs/Learn/HTML>
 
 ### CSS
 
-CSS (영문): https://web.dev/learn/css/
+CSS (영문): <https://web.dev/learn/css/>
 
 ## 스프린트 3~4
 
-* [ ] 실습: Next 커머스 데모 UI 따라하기
+* [ ] 실습: Next.js 커머스 데모 UI 따라하기
 * [ ] 이론: 자바스크립트 심화, React / Next.js 이해
 
 ### 실습: Next 커머스 데모 UI 따라하기
@@ -51,15 +68,15 @@ CSS (영문): https://web.dev/learn/css/
 
 ### 이론: 자바스크립트 심화, React / Next 이해
 
-모던 JavaScript 튜토리얼 (한국어): https://ko.javascript.info/
+모던 JavaScript 튜토리얼 (한국어): <https://ko.javascript.info/>
 
 React와 Next의 특성에 대해서도 공부할 필요가 있다. React 문서는 Function component + Hooks를 중심으로 한 예제가 더 많은 Beta 버전과 현재 공식 버전 두 갈래로 나뉘어져 있다. Beta 버전은 현재 진행 중인 문서이기 때문에 가급적이면 공식 버전 문서를 먼저 보고 이후에 Beta 문서를 보는 걸 권장한다.
-공식 리액트 문서 (한글): https://ko.reactjs.org/docs/getting-started.html
-리액트 문서 Beta (영문): https://beta.reactjs.org/
+공식 리액트 문서 (한글): <https://ko.reactjs.org/docs/getting-started.html>
+리액트 문서 Beta (영문): <https://beta.reactjs.org/>
 
 공식 문서에서는 주요 개념에 있는 모든 내용, Hook에 있는 모든 내용은 이번 스프린트 내에 끝내는 걸 권장한다.
 Next 공식 문서에서는 Basic Features에 있는 내용들은 모두 숙지하도록 하자. 이 내용들을 모두 알아야하는 이유는 여기서 Server Side Rendering, Client Side Rendering 등에 대해서도 다루고 공통 레이아웃 등에 대한 내용도 함께 다루어 컴포넌트 구조화에 대해 이해하기 좋기 때문이다.
-Basic Feature: Pages | Next.js (영문): https://nextjs.org/docs/basic-features/pages
+Basic Feature: Pages | Next.js (영문): <https://nextjs.org/docs/basic-features/pages>
 
 ## 스프린트 5~6
 
@@ -69,7 +86,7 @@ Basic Feature: Pages | Next.js (영문): https://nextjs.org/docs/basic-features/
 
 부가적인 목표들
 
-* Challenge 1: 타입스크립트를 적용해보자.
-* Challenge 2: CI/CD를 적용해보자.
-* Challenge 3: Vercel을 이용해 배포해보자.
-* Challenge 4: Public API를 적용해보자.
+* [ ] Challenge 1: 타입스크립트를 적용해보자.
+* [ ] Challenge 2: CI/CD를 적용해보자.
+* [ ] Challenge 3: Vercel을 이용해 배포해보자.
+* [ ] Challenge 4: Public API를 적용해보자.
