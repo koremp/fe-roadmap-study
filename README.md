@@ -87,7 +87,7 @@ Basic Feature: Pages | Next.js (영문): <https://nextjs.org/docs/basic-features
 
 * [ ] 복습 및 정리
 
-복습 및 정리를 위주로 공부할 것 
+복습 및 정리를 위주로 공부할 것
 
 부가적인 목표들
 
