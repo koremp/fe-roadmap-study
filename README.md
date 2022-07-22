@@ -66,6 +66,8 @@ CSS (영문): <https://web.dev/learn/css/>
 
 가급적 저장소를 보지 않고 하는 걸 권장하는 데, 저장소를 보고 이해하려면 Mono Repo에 대해서도 이해해야하고, 또 Shopify 등과 연동하는 방식에 대해서도 어느정도 알아야하기 때문이다. 간단한 Feature에 대해서만 참고하도록 하자.
 
+repo: <https://github.com/vercel/commerce>
+
 * 상품 목록 / 상품 상세
 * 장바구니
 * 검색
